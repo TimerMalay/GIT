@@ -1,0 +1,11 @@
+cd C:/Users/Администратор/Desktop/aza2
+git init
+git checkout -b session0
+git add --all
+git status
+git commit -m "first commit"
+git config --global user.email "azaliyaulianec@gmail.com"
+git config --global user.name "Azaliyaa"
+git remote add origin https://try.gogs.io/Azaliyaa/aza2.git
+git push --all origin
+
